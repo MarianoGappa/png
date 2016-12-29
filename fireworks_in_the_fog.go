@@ -134,7 +134,7 @@ type point struct {
 	c    color.RGBA
 }
 
-func drawPalette() {
+func drawFireworksInTheFog() {
 	rnd := rand.New(rand.NewSource(time.Now().Unix()))
 
 	pc := 100
